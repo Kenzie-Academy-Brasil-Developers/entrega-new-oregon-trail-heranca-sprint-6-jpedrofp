@@ -1,0 +1,19 @@
+
+body {
+    background: rgba(12,7,74,0.85);
+    background: radial-gradient(ellipse farthest-corner at center center, rgba(12,7,74,0.85) 0%, #000000 80%);
+    background: -webkit-radial-gradient(ellipse farthest-corner at center center, rgba(12,7,74,0.85) 0%, #000000 80%);
+    background: -moz-radial-gradient(ellipse farthest-corner at center center, rgba(12,7,74,0.85) 0%, #000000 80%);
+}
+
+#oregonTrail {
+    background-image: url("./img/wagon2.png");
+    background-size: 100%;
+    box-shadow: 1px 1px 8px 22px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 1px 8px 22px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 1px 8px 22px rgba(0,0,0,0.75);
+    width: 900px;
+    height: 900px;
+    margin: 0 auto;
+}
+
