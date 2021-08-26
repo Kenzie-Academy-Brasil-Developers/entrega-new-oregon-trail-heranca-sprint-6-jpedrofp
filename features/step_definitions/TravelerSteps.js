@@ -1,7 +1,7 @@
 const { Given, When, Then } = require("@cucumber/cucumber");
 const assert = require("assert");
 
-const { viajante } = require("./../../app");
+const { viajante } = require("../../app");
 
 /** GIVEN */
 
@@ -9,11 +9,11 @@ Given('um Traveler de nome {string}', function (string) {
     viajante.name = string;
 });
 
-Given('ele sempre começa a viagem com {int} refeição', function (int) {
+Given('o Traveler sempre começa a viagem com {int} refeição', function (int) {
     viajante.food = int;
 });
 
-Given('ele sempre começa a viagem saudável.', function () {
+Given('o Traveler sempre começa a viagem saudável.', function () {
     viajante.isHealthy = true;
 });
 
@@ -33,7 +33,7 @@ When('o Traveler parar para comer {int} vezes', function (int) {
 
 /** THEN */
 
-Then('a quantidade de refeições deve ser igual a {int}', function (int) {
+Then('a quantidade de refeições do Traveler deve ser igual a {int}', function (int) {
     assert.strictEqual(viajante.food, int);
 });
 

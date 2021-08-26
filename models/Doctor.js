@@ -1,14 +1,19 @@
+const Traveler = require("./Traveler") 
+
+
 class Doctor extends Traveler {
-    constructor(name, food, isHealthy) {
-        super(name, food, isHealthy)  
+    constructor(name,isHealthy,food) {
+        super(name,isHealthy,food) 
+        isHealthy = true;
+        food = 1;
         this.name = name;
         this.food = food;
         this.isHealthy = isHealthy;
     }
 
 heal(traveler){
-    traveler.isHealthy == "true"
+    traveler.isHealthy == "true";
 }
 }
 
-// module.exports = Doctor;
+module.exports = Doctor;

@@ -6,15 +6,15 @@ const { medico } = require("./../../app");
 
 /** GIVEN */
 
-Given('um Traveler de nome {string}', function (string) {
+Given('um Doctor de nome {string}', function (string) {
     medico.name = string;
 });
 
-Given('ele sempre começa a viagem com {int} refeição', function (int) {
+Given('o Doctor sempre começa a viagem com {int} refeição', function (int) {
     medico.food = int;
 });
 
-Given('ele sempre começa a viagem saudável.', function () {
+Given('o Doctor  sempre começa a viagem saudável.', function () {
     medico.isHealthy = true;
 });
 
@@ -34,7 +34,7 @@ When('o Doctor parar para comer {int} vezes', function (int) {
 
 /** THEN */
 
-Then('a quantidade de refeições deve ser igual a {int}', function (int) {
+Then('a quantidade de refeições do Doctor deve ser igual a {int}', function (int) {
     assert.strictEqual(viajante.food, int);
 });
 

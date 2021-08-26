@@ -29,3 +29,4 @@ Funcionalidade: Traveler
         E o Traveler parar para comer 2 vezes
         Então a quantidade de refeições deve ser igual a 3
         E o Traveler não ficará doente
+  

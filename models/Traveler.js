@@ -1,6 +1,6 @@
 class Traveler {
 
-    constructor(name, food, isHealthy) {
+    constructor(name,isHealthy,food) {
         isHealthy = true;
         food = 1;
         this.name = name;
@@ -35,4 +35,4 @@ class Traveler {
 }
 
 
-// module.exports = Traveler;
+module.exports = Traveler ;

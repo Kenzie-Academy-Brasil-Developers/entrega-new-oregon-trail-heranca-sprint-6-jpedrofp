@@ -1,3 +1,4 @@
+
 # language: pt
 
 Funcionalidade: Doctor
@@ -10,9 +11,9 @@ Funcionalidade: Doctor
         Dado um Doctor de nome "João"
         E ele sempre começa a viagem com 1 refeição
         E ele sempre começa a viagem saudável.
-        Se o Traveler Augusto ficar doente o Doctor João irá curá-lo
+        Quando o Traveler Augusto ficar doente o Doctor João irá curá-lo
         E Augusto voltará a estar saudável
 
-    Cenário: 
-        Se o Doutor curar um viajanta que já está saudável
-        O viajante continuará a estar saudável
+    Cenário: Curando viajante saudavel
+        Quando o Doutor curar um viajanta que já está saudável
+        Então o viajante continuará a estar saudável

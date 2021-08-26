@@ -3,6 +3,7 @@ const assert = require("assert");
 
 const Traveler = require("./../../models/Traveler")
 const { carroca } = require("./../../app");
+// { carroca } -> metodo destruction ; pegando um objeto e destruindo 
 
 let passengers        = [];
 let availableSeat     = 0;

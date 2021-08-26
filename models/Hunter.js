@@ -1,7 +1,8 @@
+const Traveler = require("./Traveler") 
 
 class Hunter extends Traveler {
-    constructor(name, food, isHealthy) {
-        super(name, food, isHealthy)
+    constructor(name,isHealthy,food) {
+        super(name, isHealthy,food)
         isHealthy = true;
         food = 2;   
         this.name = name;
@@ -49,4 +50,4 @@ class Hunter extends Traveler {
 
 }
 
-// module.exports = Hunter;
+module.exports = Hunter;

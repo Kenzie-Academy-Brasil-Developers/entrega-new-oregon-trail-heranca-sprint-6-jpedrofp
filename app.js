@@ -9,24 +9,23 @@ let carroca = new Wagon();
 let medico = new Doctor();
 let cacador = new Hunter();
 
-let viajanteSergio = new Traveler();
-let viajanteSimone = new Traveler();
-let viajanteSamuel = new Traveler();
-let viajanteSandra = new Traveler();
-let viajanteJoão   = new Traveler();
-let viajanteDiego  = new Traveler();
-let viajanteDiana  = new Traveler();
+// let viajanteSergio = new Traveler();
+// let viajanteSimone = new Traveler();
+// let viajanteSamuel = new Traveler();
+// let viajanteSandra = new Traveler();
+// let viajanteJoão   = new Traveler();
+// let viajanteDiego  = new Traveler();
+// let viajanteDiana  = new Traveler();
 
-let medicoSusy = new Doctor();
-let medicoMicael = new Doctor();
+// let medicoSusy = new Doctor();
+// let medicoMicael = new Doctor();
 
-let cacadorPaulo = new Hunter();
-let cacadorBarney = new Hunter();
+// let cacadorPaulo = new Hunter();
+// let cacadorBarney = new Hunter();
 
 module.exports = {
     viajante,
     carroca,
     medico,
     cacador,
-
 }

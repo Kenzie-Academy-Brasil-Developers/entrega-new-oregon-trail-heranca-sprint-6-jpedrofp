@@ -1,3 +1,4 @@
+const Traveler = require("./Traveler") 
 
 class Wagon {
 
@@ -41,4 +42,4 @@ class Wagon {
 
 }
 
-// module.exports = Wagon;
+module.exports = Wagon;

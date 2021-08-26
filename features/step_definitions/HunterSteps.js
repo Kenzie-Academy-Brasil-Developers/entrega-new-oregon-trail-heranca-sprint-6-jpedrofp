@@ -10,11 +10,11 @@ Given('um Cacador de nome {string}', function (string) {
     cacador.name = string;
 });
 
-Given('ele sempre começa a viagem com {int} refeição', function (int) {
+Given('o Cacador sempre começa a viagem com {int} refeição', function (int) {
     cacador.food = int;
 });
 
-Given('ele sempre começa a viagem saudável.', function () {
+Given('o Cacador sempre começa a viagem saudável.', function () {
     cacador.isHealthy = true;
 });
 
@@ -34,7 +34,7 @@ When('o Cacador parar para comer {int} vezes', function (int) {
 
 /** THEN */
 
-Then('a quantidade de refeições deve ser igual a {int}', function (int) {
+Then('a quantidade de refeições do Hunter deve ser igual a {int}', function (int) {
     assert.strictEqual(cacador.food, int);
 });
 

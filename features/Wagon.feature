@@ -1,6 +1,6 @@
 # language: pt
 
-Funcionalidade: Carroça
+Funcionalidade: Wagon
     Como cocheiro
     Devo controlar a capacidade de passageiros na carroça
     E cuidar do estado de saúde dos passageiros
